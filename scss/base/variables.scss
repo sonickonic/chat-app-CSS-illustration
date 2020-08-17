@@ -1,27 +1,18 @@
-@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap");
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 html {
-  font-size: 16px;
-  font-family: "Rubik", sans-serif;
-}
-
-html {
+  //text
   --sub-heading: hsl(276, 100%, 81%);
   --chat-left: hsl(276, 55%, 52%);
   --chat-right: hsl(271, 15%, 43%);
   --placeholder-text: hsl(206, 6%, 79%);
   --dark-violet: hsl(271, 36%, 24%);
   --paragraph: hsl(270, 7%, 64%);
+
+  // Gradients
   --light-magenta: hsl(293, 100%, 63%);
   --light-Violet: hsl(264, 100%, 61%);
+
+  // Secondary
   --white: hsl(0, 0%, 100%);
   --app-background: hsl(270, 20%, 96%);
   --radio-button-outline: hsl(289, 100%, 72%);
 }
-
-/*# sourceMappingURL=style.css.map */
