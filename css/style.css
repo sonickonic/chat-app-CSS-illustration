@@ -24,4 +24,19 @@ html {
   --radio-button-outline: hsl(289, 100%, 72%);
 }
 
+.section__title {
+  text-align: center;
+  color: var(--dark-violet);
+  font-weight: 700;
+  font-size: 2.5rem;
+  letter-spacing: -0.02em;
+  margin-bottom: 1.5rem;
+}
+.section__description {
+  text-align: center;
+  color: var(--paragraph);
+  line-height: 1.75rem;
+  letter-spacing: 0.005em;
+}
+
 /*# sourceMappingURL=style.css.map */

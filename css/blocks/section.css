@@ -1,0 +1,15 @@
+.section__title {
+  text-align: center;
+  color: var(--dark-violet);
+  font-weight: 500;
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+.section__description {
+  text-align: center;
+  color: var(--paragraph);
+  line-height: 1.75rem;
+  letter-spacing: 0.005em;
+}
+
+/*# sourceMappingURL=section.css.map */
