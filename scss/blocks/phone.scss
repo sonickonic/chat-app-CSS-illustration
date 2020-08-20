@@ -80,14 +80,6 @@
     border-radius: 10px;
   }
 
-  &__photos-container {
-    display: flex;
-    align-self: flex-end;
-    justify-content: space-between;
-    width: 136px;
-    margin: 8px 0;
-  }
-
   &__message {
     align-self: flex-end;
     font-size: 8px;
@@ -143,6 +135,17 @@
         font-weight: 500;
       }
     }
+  }
+
+  &__message-photos {
+    display: flex;
+    align-self: flex-end;
+    justify-content: space-between;
+    background-color: transparent;
+    width: 136px;
+    margin: 8px 0;
+    padding: 0;
+    box-shadow: none;
   }
 
   &__input {

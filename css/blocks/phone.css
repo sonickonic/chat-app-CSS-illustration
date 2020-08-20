@@ -67,13 +67,6 @@
   height: 40px;
   border-radius: 10px;
 }
-.phone__photos-container {
-  display: flex;
-  align-self: flex-end;
-  justify-content: space-between;
-  width: 136px;
-  margin: 8px 0;
-}
 .phone__message {
   align-self: flex-end;
   font-size: 8px;
@@ -120,6 +113,16 @@
   flex-grow: 2;
   font-size: 13px;
   font-weight: 500;
+}
+.phone__message-photos {
+  display: flex;
+  align-self: flex-end;
+  justify-content: space-between;
+  background-color: transparent;
+  width: 136px;
+  margin: 8px 0;
+  padding: 0;
+  box-shadow: none;
 }
 .phone__input {
   position: relative;

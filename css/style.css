@@ -24,6 +24,22 @@ html {
   --radio-button-outline: hsl(289, 100%, 72%);
 }
 
+@keyframes slide-top {
+  0% {
+    transform: translateY(50px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+.slide-top {
+  animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+.non-visible {
+  opacity: 0;
+}
+
 .main {
   position: relative;
   height: 100%;
@@ -179,13 +195,6 @@ html {
   height: 40px;
   border-radius: 10px;
 }
-.phone__photos-container {
-  display: flex;
-  align-self: flex-end;
-  justify-content: space-between;
-  width: 136px;
-  margin: 8px 0;
-}
 .phone__message {
   align-self: flex-end;
   font-size: 8px;
@@ -232,6 +241,16 @@ html {
   flex-grow: 2;
   font-size: 13px;
   font-weight: 500;
+}
+.phone__message-photos {
+  display: flex;
+  align-self: flex-end;
+  justify-content: space-between;
+  background-color: transparent;
+  width: 136px;
+  margin: 8px 0;
+  padding: 0;
+  box-shadow: none;
 }
 .phone__input {
   position: relative;
