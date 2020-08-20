@@ -12,5 +12,20 @@
     color: var(--paragraph);
     line-height: 1.75rem;
     letter-spacing: 0.005em;
+    max-width: 445px;
+    margin: 0 auto;
+  }
+}
+
+@include screen-s {
+  .section {
+    &__title {
+      text-align: left;
+    }
+
+    &__description {
+      text-align: left;
+      width: 445px;
+    }
   }
 }
